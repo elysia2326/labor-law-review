@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第一章 导论 · 章节测试</title>
+<style>
+:root{--ink:#2d2a24;--muted:#777;--accent:#6060d0;--line:#e0d8c8;--bg:#faf8f3;--card:#fff}
+*{box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;background:var(--bg);color:var(--ink);
+margin:0;padding:18px 14px 80px;line-height:1.7;font-size:16px}
+header{max-width:820px;margin:0 auto 14px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+h1{font-size:1.25em;margin:0}
+a{color:var(--accent);text-decoration:none}
+.bar{max-width:820px;margin:0 auto 16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{font:inherit;font-size:.9em;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:#fff;color:var(--ink)}
+button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.q{max-width:820px;margin:0 auto 14px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.qh{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.no{font-weight:700;color:var(--accent)}
+.badge{font-size:.75em;color:#555;background:#f0ede0;border-radius:6px;padding:1px 7px}
+.pts{font-size:.78em;color:var(--muted)}
+.qt{white-space:pre-wrap}
+.opt{margin:5px 0 5px 4px;padding:6px 9px;border-radius:8px;border:1px solid #eee;background:#fcfbf7}
+.opt.ok{border-color:#16a34a;background:#eafaf0}
+.ansbox{display:none;margin-top:10px;padding:10px 12px;border-radius:10px;border:1px solid #cfd8ff;background:#f4f6ff}
+.ansbox.show{display:block}
+.lbl{font-weight:700;color:var(--accent);margin-right:4px}
+.explain{color:#333;margin-top:6px;white-space:pre-wrap}
+.pit{color:#8a5a00;background:#fff8e6;border-left:3px solid #d0a030;padding:6px 9px;margin-top:8px;border-radius:4px;font-size:.94em}
+.ansbtn{margin-top:8px}
+nav.chaps{max-width:820px;margin:0 auto 18px;display:flex;gap:6px;flex-wrap:wrap;font-size:.9em}
+nav.chaps a{padding:5px 10px;border:1px solid var(--line);border-radius:8px;background:#fff}
+footer{max-width:820px;margin:30px auto 0;color:var(--muted);font-size:.85em;text-align:center}
+@media print{.ansbtn,.bar,header a{display:none}.ansbox{display:block}}
+</style></head><body>
+<header><h1>第一章 导论 · 章节测试</h1><a href="index.html">← 全部章节</a></header>
+<div class="bar">
+  <button class="primary" onclick="allAns(true)">全部显示答案</button>
+  <button onclick="allAns(false)">全部收起</button>
+  <span class="pts">共 27 题 · 108 分 · 每题点「看答案」逐题核对</span>
+</div>
+<nav class="chaps"><a href="导论.html">导论</a> <a href="就业促进法.html">就业促进法</a> <a href="劳动合同法.html">劳动合同法</a> <a href="劳动基准法.html">劳动基准法</a> <a href="劳动争议处理法.html">劳动争议处理法</a> <a href="社会保险法.html">社会保险法</a></nav>
+<div class="q" id="q1">
+  <div class="qh"><span class="no">1.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">某餐饮公司招用李某从事后厨工作，双方签订名为《劳务合作协议》的文件，但公司对李某的排班、考勤、着装和操作流程均有要求，并按月发放报酬。李某主张双方存在劳动关系。依我国通说的劳动法概念，下列判断正确的是</div>
+  <div class="opts">
+<div class="opt">A. 因双方签订的是《劳务合作协议》，故不属于劳动法调整，应按民事合同处理</div>
+<div class="opt">B. 劳动法只调整已订立书面劳动合同的关系，未签劳动合同即不受劳动法调整</div>
+<div class="opt ok">C. 劳动法调整劳动关系以及与劳动关系密切联系的其他社会关系，定性看从属性而非协议名称，该关系应纳入劳动法调整</div>
+<div class="opt">D. 劳动法调整劳动关系及与其密切联系的其他社会关系，故任何劳务给付均受劳动法调整</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(1)">看答案</button>
+  <div class="ansbox" id="a1">
+    <div><span class="lbl">答案</span>C. 劳动法调整劳动关系以及与劳动关系密切联系的其他社会关系，定性看从属性而非协议名称，该关系应纳入劳动法调整</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第7、10页的中国通说定义，第22—23页劳动法上劳动的特点，第28页2005年三要件；课堂实录老师强调「劳动法是调整劳动关系以及与劳动关系密切联系的其他社会关系的法律规范的总称」。选A的学生把协议名称当成定性标准，属概念混淆；选B的学生漏掉「未订立书面合同但同时具备法定情形时劳动关系仍成立」这一条件，属条件遗漏；选D的学生把「与劳动关系密切联系的其他社会关系」放大为「任何劳务给付」，属范围扩大。协议名称不决定性质，要看是否存在支配性劳动管理。</div>
+    <div class="pit">以合同名称代替从属性判断，看到「劳务协议」就否定劳动关系。</div>
+  </div>
+</div>
+<div class="q" id="q2">
+  <div class="qh"><span class="no">2.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">关于广义劳动法与狭义劳动法，下列说法正确的是</div>
+  <div class="opts">
+<div class="opt ok">A. 狭义劳动法指一个国家的劳动法典，广义劳动法还包括与劳动法典实施相配套的一系列劳动法规和规章</div>
+<div class="opt">B. 狭义劳动法仅指《中华人民共和国劳动法》，广义劳动法仅指《中华人民共和国劳动合同法》</div>
+<div class="opt">C. 广义劳动法与狭义劳动法的区别在于是否包含地方性法规，二者均不包含部门规章</div>
+<div class="opt">D. 广义劳动法指所有调整民事关系的法律，狭义劳动法指调整劳动关系的法律</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(2)">看答案</button>
+  <div class="ansbox" id="a2">
+    <div><span class="lbl">答案</span>A. 狭义劳动法指一个国家的劳动法典，广义劳动法还包括与劳动法典实施相配套的一系列劳动法规和规章</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第10页；课堂实录老师原话「狭义上的就是指一个国家的劳动法的法典性质的法律……广义上就指的是劳动法相关的各种法律规范」，并提醒「题目出现劳动法先分清广义狭义」。《中华人民共和国劳动法》1994年7月5日通过、1995年1月1日施行。选B的学生把广义、狭义分别对应《劳动法》与《劳动合同法》，属文本错位；选C的学生把区别错置为是否包含地方性法规与部门规章，属条件误判；选D的学生把广义劳动法扩大到民事关系，属概念混淆。广义之「广」在配套规范，不在法律数量，更不是法域扩张。</div>
+    <div class="pit">把「广义」理解为法律数量更多，而不是法典加配套法规规章。</div>
+  </div>
+</div>
+<div class="q" id="q3">
+  <div class="qh"><span class="no">3.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">英美法系对劳动法概念的理解通常划分为三个部分。下列哪一组表述符合 PPT 对英美法系概念的介绍</div>
+  <div class="opts">
+<div class="opt">A. 劳动法、社会保障法、社会优抚法</div>
+<div class="opt">B. 个别劳动关系法、集体劳动关系法、社会劳动关系法</div>
+<div class="opt">C. 契约法、保护法、保险法</div>
+<div class="opt ok">D. 劳动法（劳动关系法）、雇佣法、就业歧视法</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(3)">看答案</button>
+  <div class="ansbox" id="a3">
+    <div><span class="lbl">答案</span>D. 劳动法（劳动关系法）、雇佣法、就业歧视法</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第8页。英国《牛津法律大词典》把与雇佣劳动相关的全部法律原则和规则归入劳动法，大致相当于工业法；美国分为劳动法（主要规范工会组织、集体谈判及劳资关系）、雇佣法（规范工作中劳动者的个人权利，包括劳动基准适用以及合同法、侵权法在雇佣领域的判例原则）和就业歧视法（规范工作环境中的歧视）。选A的学生把社会保障法的内容混入英美法系三分，属部门混淆；选B的学生套用了我国个别劳动关系与集体劳动关系的划分，属概念混淆；选C的学生把「契约法→保护法→保险法」的社会法演进误当英美法系分类，属阶段与法系错位。</div>
+    <div class="pit">把我国劳动关系的分类或社会法演进阶段套到英美法系三分上。</div>
+  </div>
+</div>
+<div class="q" id="q4">
+  <div class="qh"><span class="no">4.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">德国学者杜茨把劳动法理解为关于劳动生活中处于从属地位者（雇员）的雇佣关系的法律规则的总和，并称劳动法为特别债法。这一表述强调的是</div>
+  <div class="opts">
+<div class="opt">A. 劳动法完全排除契约自由，一切劳动条件均由法律直接规定</div>
+<div class="opt ok">B. 劳动法是从属地位劳动者的特别法，原则上仍存在契约自由，但双方实力不完全平衡时契约自由被认为是无意义的</div>
+<div class="opt">C. 劳动法属于一般债法，与民法中的雇佣合同规定完全相同</div>
+<div class="opt">D. 劳动法只保护雇员的集体谈判权，不涉及个别雇佣关系</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(4)">看答案</button>
+  <div class="ansbox" id="a4">
+    <div><span class="lbl">答案</span>B. 劳动法是从属地位劳动者的特别法，原则上仍存在契约自由，但双方实力不完全平衡时契约自由被认为是无意义的</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第9页。杜茨的表述包含三层：劳动法是从属地位劳动者的特别法；劳动法是特别债法；原则上仍存在契约自由，但当合同双方实力不完全平衡时，契约自由在这方面被认为是无意义的。选A的学生把「契约自由意义有限」绝对化为「完全排除契约自由」，属绝对化与条件遗漏；选C的学生把特别债法误读为一般债法，属概念混淆；选D的学生把劳动法限缩为集体谈判，属范围缩小。这句话的落点是从属性，它也是老师所说后面所有案例的「总钥匙」。</div>
+    <div class="pit">把「契约自由受限」读成「契约自由被取消」。</div>
+  </div>
+</div>
+<div class="q" id="q5">
+  <div class="qh"><span class="no">5.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">社会保障法是调整社会保障关系的法律规范的总称。按 PPT 的列举，社会保障关系包括</div>
+  <div class="opts">
+<div class="opt ok">A. 社会保险关系、社会救济关系、社会福利关系、社会优抚关系</div>
+<div class="opt">B. 个别劳动关系、集体劳动关系、社会劳动关系</div>
+<div class="opt">C. 劳动力租赁关系、劳工法规关系、工厂立法关系、劳动法关系</div>
+<div class="opt">D. 劳动争议调解仲裁关系、社会保险管理关系、劳动监督检查关系、工会与企事业单位关系</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(5)">看答案</button>
+  <div class="ansbox" id="a5">
+    <div><span class="lbl">答案</span>A. 社会保险关系、社会救济关系、社会福利关系、社会优抚关系</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第7页。社会保障关系包括社会保险关系、社会救济关系、社会福利关系、社会优抚关系四类；本课程只重点讲社会保险。选B的学生把劳动关系的分类当成了社会保障关系，属部门混淆；选C的学生把劳动法产生过程的四个阶段混入，属概念混淆；选D的学生列的是第29页劳动法调整的其他社会关系，属部门混淆。记住两组四分法不要串：社会保障四分是保险、救济、福利、优抚。</div>
+    <div class="pit">把劳动法调整的其他社会关系当成社会保障关系。</div>
+  </div>
+</div>
+<div class="q" id="q6">
+  <div class="qh"><span class="no">6.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">按 PPT 对劳动关系变迁的梳理，下列排列符合历史先后顺序的是</div>
+  <div class="opts">
+<div class="opt">A. 雇佣契约时代→劳动契约时代→租赁劳动时代→团体主义时代→不自由劳动时代</div>
+<div class="opt">B. 不自由劳动时代→雇佣契约时代→租赁劳动时代→劳动契约时代→团体主义时代</div>
+<div class="opt ok">C. 不自由劳动时代→租赁劳动时代→团体主义时代→雇佣契约时代→劳动契约时代</div>
+<div class="opt">D. 租赁劳动时代→不自由劳动时代→雇佣契约时代→团体主义时代→劳动契约时代</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(6)">看答案</button>
+  <div class="ansbox" id="a6">
+    <div><span class="lbl">答案</span>C. 不自由劳动时代→租赁劳动时代→团体主义时代→雇佣契约时代→劳动契约时代</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第12页。五个阶段依次为不自由劳动时代、租赁劳动时代（罗马法）、团体主义时代（日耳曼法，忠勤与主从）、雇佣契约时代（劳动关系全面债权化）、劳动契约时代（债的要素加身份要素即人格）。选A的学生把整条顺序颠倒，属因果与顺序错置；选B的学生把租赁劳动时代与雇佣契约时代的位置错排；选D的学生把租赁劳动时代排在不自由劳动时代之前，属步骤错位。记法是「先不自由、再租赁、再团体、再纯债权、最后加回人格」。</div>
+    <div class="pit">把「雇佣契约时代」与「劳动契约时代」的位置颠倒，或把租赁劳动时代排在最前。</div>
+  </div>
+</div>
+<div class="q" id="q7">
+  <div class="qh"><span class="no">7.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">被视为劳动法产生标志的立法是</div>
+  <div class="opts">
+<div class="opt">A. 1804年《法国民法典》第1710条</div>
+<div class="opt ok">B. 1802年英国《学徒健康与道德法》</div>
+<div class="opt">C. 1922年《苏俄劳动法典》</div>
+<div class="opt">D. 2021年八部门《关于维护新就业形态劳动者劳动保障权益的指导意见》</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(7)">看答案</button>
+  <div class="ansbox" id="a7">
+    <div><span class="lbl">答案</span>B. 1802年英国《学徒健康与道德法》</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第17—18页；课堂实录老师原话「1802 年英国的《学徒健康和道德法》这部法律特别有代表性，是第一部工厂立法，因此把 1802 年英国这部法律的通过视为是劳动法产生的标志」，内容是对童工的生理保护，规定9岁以下不得雇用、不得从事夜班并缩短工时。选A的学生停留在劳动力租赁阶段（1804年民法典仍把劳动给付当作劳动力租赁）；选C的学生把「使劳动法彻底脱离民法范畴」的标志误当成「劳动法产生」的标志；选D的学生把2021年新就业形态指导意见误作标志，属年代错位。老师在课上专门提醒这个年份「要记死」。</div>
+    <div class="pit">把劳动法「脱离民法」的标志（1922年苏俄劳动法典）与劳动法「产生」的标志混淆。</div>
+  </div>
+</div>
+<div class="q" id="q8">
+  <div class="qh"><span class="no">8.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">关于劳动法上的劳动，下列理解正确的是</div>
+  <div class="opts">
+<div class="opt">A. 劳动法上的劳动与一般意义的劳动含义相同，凡创造使用价值的有意识、有目的的活动均受劳动法调整</div>
+<div class="opt">B. 劳动法上的劳动仅指体力劳动，不包括经营管理、技术研发等脑力劳动</div>
+<div class="opt">C. 劳动法上的劳动指履行道德义务或法定义务、不取报酬的无偿劳动</div>
+<div class="opt ok">D. 劳动法上的劳动指劳动力所有者将其劳动力有偿提供给他人使用，区别于自我使用劳动力的劳动</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(8)">看答案</button>
+  <div class="ansbox" id="a8">
+    <div><span class="lbl">答案</span>D. 劳动法上的劳动指劳动力所有者将其劳动力有偿提供给他人使用，区别于自我使用劳动力的劳动</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第21—22页。一般意义的劳动指使用（消费）劳动力、动用劳动资料、改变劳动对象、创造使用价值的有意识有目的的活动；劳动法上的劳动则指劳动力的所有者将其劳动力有偿提供给他人使用，区别于自我使用劳动力的劳动（史尚宽：基于契约上义务在从属关系所为之职业上有偿的劳动）。选A的学生把一般劳动定义直接套用，属概念混淆；选B的学生把劳动限缩为体力劳动，属范围缩小；选C的学生漏掉「有偿」这一要件，把义务劳动混入，属条件遗漏。后面还要再过四道筛子：职业、契约、从属、自由。</div>
+    <div class="pit">把「劳动是劳动力的使用」这一一般定义直接当作劳动法上的劳动定义。</div>
+  </div>
+</div>
+<div class="q" id="q9">
+  <div class="qh"><span class="no">9.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">某公司要求员工必须亲自到岗完成工作，劳动行为的具体内容、时间、地点、方式与程序均由公司决定，员工须服从工作规则和指示、接受检查与制裁，不得自行安排他人代为完成。这些情形主要体现的是</div>
+  <div class="opts">
+<div class="opt ok">A. 人格从属性，因为劳动行为的内容、时间、地点、方式与程序均由公司决定，员工须亲自履行并服从指示、接受检查与制裁</div>
+<div class="opt">B. 经济从属性，因为公司提供劳动条件与原材料、承担经营风险，员工被纳入公司的经济组织</div>
+<div class="opt">C. 组织从属性，因为员工被编入公司的组织体系，其劳动构成公司业务的组成部分</div>
+<div class="opt">D. 从属性产生的原因，因为劳动力市场供大于求、双方经济实力相差悬殊</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(9)">看答案</button>
+  <div class="ansbox" id="a9">
+    <div><span class="lbl">答案</span>A. 人格从属性，因为劳动行为的内容、时间、地点、方式与程序均由公司决定，员工须亲自履行并服从指示、接受检查与制裁</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第26—27页。人格从属性表现为劳动者基于劳动契约在一定期间内对自己的劳动行为不能自主支配：劳动行为的具体内容、时间、地点、方式及程序由用人单位决定；须亲自履行劳动义务；用人单位有支配、监督管理权，劳动者须服从工作规则、服从指示、接受检查、接受制裁。「亲自履行」「服从指示」「接受制裁」正是本题题干的原文。选B的学生把经济从属性的四项表现（生产组织体系、劳动条件、原材料、经营风险）与人格从属性混淆，属概念串位；选C的学生把「被编入组织体系、劳动构成业务组成部分」当成本题答案，属概念串位，且没有发现题干追问的是劳动行为如何被支配；选D的学生把「从属性产生的原因」当成从属性表现的类型，属层次混淆。</div>
+    <div class="pit">看到「提供劳动条件」就选经济从属性，忽略题干核心是指示命令、亲自履行与监督检查。</div>
+  </div>
+</div>
+<div class="q" id="q10">
+  <div class="qh"><span class="no">10.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">依2005年劳动和社会保障部《关于确立劳动关系有关事项的通知》，用人单位招用劳动者未订立书面劳动合同，同时具备三项情形时劳动关系成立。下列哪一项不属于该通知规定的「同时具备」的三项情形</div>
+  <div class="opts">
+<div class="opt">A. 用人单位和劳动者符合法律、法规规定的主体资格</div>
+<div class="opt">B. 用人单位依法制定的各项劳动规章制度适用于劳动者，劳动者受用人单位的劳动管理，从事用人单位安排的有报酬的劳动</div>
+<div class="opt ok">C. 用人单位已为劳动者缴纳社会保险费</div>
+<div class="opt">D. 劳动者提供的劳动是用人单位业务的组成部分</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(10)">看答案</button>
+  <div class="ansbox" id="a10">
+    <div><span class="lbl">答案</span>C. 用人单位已为劳动者缴纳社会保险费</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第28页；课堂实录老师原话「用人单位招用劳动者未订立书面劳动合同，但同时具备下列情形的，劳动关系成立」，并把这句翻译成三性：第②项前半句是人格从属性、后半句是经济从属性，第③项既可看作经济从属性也可看作组织从属性。选A的学生抓住了主体资格这一前提性要件，选B的学生抓住了对应人格与经济从属性的第②项，选D的学生抓住了对应组织从属性的第③项，三者都是通知中的真实要件，失误在漏看设问中的「不属于」。缴纳社会保险费是实务中常见的事实，却不在该通知列举的三项之内；同时要记住三项是并列必备关系，缺一即不成立。老师还提醒，这三项是工业社会标准劳动关系的特征，平台时代已经不够用。</div>
+    <div class="pit">把实务中常见的社保缴纳事实当作2005年通知三要件之一，或漏看「不属于」。</div>
+  </div>
+</div>
+<div class="q" id="q11">
+  <div class="qh"><span class="no">11.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">关于从属性产生的原因，下列说法正确的是</div>
+  <div class="opts">
+<div class="opt">A. 从属性主要源于劳动者法律知识不足、维权意识淡薄，与劳动力市场结构无关</div>
+<div class="opt">B. 从属性源于用人单位规模较大，中小企业与个体工商户中不存在从属关系</div>
+<div class="opt">C. 从属性源于劳动力可以自由转让，劳动力市场长期处于供不应求状态</div>
+<div class="opt ok">D. 劳动力市场一般供大于求，流动性差的劳动力依赖流动性强的资本，加之用人单位控制劳动成果的分配权，共同形成从属性</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(11)">看答案</button>
+  <div class="ansbox" id="a11">
+    <div><span class="lbl">答案</span>D. 劳动力市场一般供大于求，流动性差的劳动力依赖流动性强的资本，加之用人单位控制劳动成果的分配权，共同形成从属性</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第25页列举的七个原因：社会化大生产；劳动力是一种特殊商品；劳动力往往是劳动者维持生活的唯一来源；劳动力市场一般都是供大于求；流动性差的劳动力对流动性强的资本具有依赖性；劳动者与用人单位经济实力相差悬殊；用人单位控制了劳动成果的分配权。选A的学生把结构性原因归为劳动者个人素质，忽略劳动力市场供求与双方实力悬殊；选B的学生把用人单位规模当作从属性有无的标准，属标准错置，从属性看的是支配性劳动管理而非规模；选C的学生把劳动力市场供求方向说反，应为供大于求，属方向错置。</div>
+    <div class="pit">把从属性归因于劳动者个人能力或单位规模，或把劳动力市场供求方向写反。</div>
+  </div>
+</div>
+<div class="q" id="q12">
+  <div class="qh"><span class="no">12.</span><span class="badge">选择题</span><span class="pts">3 分</span></div>
+  <div class="qt">按 PPT 对我国劳动法体系的列举，下列表述正确的是</div>
+  <div class="opts">
+<div class="opt">A. 我国劳动法体系只包括宪法和《中华人民共和国劳动法》两个层级</div>
+<div class="opt ok">B. 宪法之下，现行劳动法律9部、劳动行政法规16部、部门规章74部，另有地方性法规和最高人民法院司法解释</div>
+<div class="opt">C. 劳动行政法规由全国人大常委会制定，部门规章由最高人民法院制定</div>
+<div class="opt">D. 最高人民法院2001—2013年发布的四个劳动争议司法解释至今全部有效，与2020年、2025年两部解释并行适用</div>
+</div>
+  <button class="ansbtn" onclick="toggleAns(12)">看答案</button>
+  <div class="ansbox" id="a12">
+    <div><span class="lbl">答案</span>B. 宪法之下，现行劳动法律9部、劳动行政法规16部、部门规章74部，另有地方性法规和最高人民法院司法解释</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第38页。体系层级为宪法、法律（9部）、法规（16部）、地方性法规（代表性为北京、上海、江苏、广东）、部门规章（74部）与最高人民法院司法解释；重点五部法律是劳动法、就业促进法、劳动合同法、劳动争议调解仲裁法、社会保险法。选A的学生只看到宪法与劳动法，漏掉法律、法规、地方性法规、部门规章、司法解释五个层级；选C的学生把制定主体错置，行政法规由国务院制定、部门规章由国务院部门制定、司法解释由最高人民法院作出；选D的学生没有注意2001—2013年的四个司法解释已停止适用，现适用的是解释（一）（法释〔2020〕26号）与解释（二）（法释〔2025〕12号）。课堂还提醒「学劳动法一定要特别注意地方的规定」。</div>
+    <div class="pit">把法律9部、法规16部、规章74部的数字互换，或以为旧司法解释仍有效。</div>
+  </div>
+</div>
+<div class="q" id="q13">
+  <div class="qh"><span class="no">13.</span><span class="badge">辨析题</span><span class="pts">4 分</span></div>
+  <div class="qt">辨析：「劳动法就是劳动合同法，凡是劳动合同没有约定的事项，都不属于劳动法调整。」</div>
+  
+  <button class="ansbtn" onclick="toggleAns(13)">看答案</button>
+  <div class="ansbox" id="a13">
+    <div><span class="lbl">答案</span>错误。理由：①我国通说把劳动法界定为调整劳动关系以及与劳动关系密切联系的其他社会关系的法律规范的总称，其范围远大于劳动合同法；②广义劳动法包括劳动法典及与法典实施相配套的一系列法律、法规和规章，劳动合同法只是其中一部单行法律，与劳动法、就业促进法、社会保险法、劳动争议调解仲裁法并列；③劳动合同未约定的事项仍受劳动基准、社会保险等强行法调整，法定内容不因合同未写而免除；④狭义劳动法也仅指劳动法典，同样不是劳动合同法。结论：该说法错误，它把法律部门与单行法混为一谈。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第10页通说与广义、狭义之分；课堂实录老师原话「狭义上的就是指一个国家的劳动法的法典性质的法律……广义上就指的是劳动法相关的各种法律规范」，并反复提醒「题目出现劳动法先分清广义狭义」。错在第一步：把「劳动法」当成一部名为劳动合同法的法律，用单行法的射程替换整个法律部门的射程，于是把法定基准与配套规范全部漏掉。这一错会连带答错调整对象题。</div>
+    <div class="pit">把劳动法等同于劳动合同法，进而认为合同没写就不受劳动法调整。</div>
+  </div>
+</div>
+<div class="q" id="q14">
+  <div class="qh"><span class="no">14.</span><span class="badge">辨析题</span><span class="pts">4 分</span></div>
+  <div class="qt">辨析：「劳动法产生的前提是工业革命与工厂的出现，先有工厂，才有劳动法。」</div>
+  
+  <button class="ansbtn" onclick="toggleAns(14)">看答案</button>
+  <div class="ansbox" id="a14">
+    <div><span class="lbl">答案</span>错误。理由：①工业革命、工厂与大机器生产只是劳动法产生的历史背景与物质条件；②劳动法产生的前提是劳动力所有者与劳动力使用者相分离，劳动者只能把自己的劳动力有偿提供给他人使用；③正因二者分离，才需要以劳动合同确定劳动条件、以劳动法调整从属劳动；④若把背景当前提，就无法解释同样经历工业革命的国家为何劳动法产生的时间与形态并不相同。结论：该说法错误，前提是劳动力的所有者与使用者分离。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第16页「劳动法产生的前提：劳动力所有者与使用者的分离」；课堂实录老师把「一切都从工业革命开始」作为历史背景讲，再单独列明前提。错在把第6页的历史背景当成第16页的法律前提，属层次混淆；同时把「为什么会出现劳动法」的物质条件与「劳动法据以存在的社会关系前提」当成同一件事，是因果倒置。</div>
+    <div class="pit">把工业革命、工厂等历史背景误记为劳动法产生的前提。</div>
+  </div>
+</div>
+<div class="q" id="q15">
+  <div class="qh"><span class="no">15.</span><span class="badge">辨析题</span><span class="pts">4 分</span></div>
+  <div class="qt">辨析：「1804年《法国民法典》把雇佣关系作为劳动力租赁、与物的租赁并列，这表明国家对雇佣关系已经采取了强行法干预。」</div>
+  
+  <button class="ansbtn" onclick="toggleAns(15)">看答案</button>
+  <div class="ansbox" id="a15">
+    <div><span class="lbl">答案</span>错误。理由：①1804年《法国民法典》第1710条把雇佣关系当作劳动力租赁，与物的租赁并列，属债权债务之一种，走的是任意性调整、自由契约路径；②强行法干预是另一条路径，典型是1922年《苏俄劳动法典》以法典形式使劳动法彻底脱离民法的范畴；③美国 at-will employment 也处在任意性调整一端，仅由部分法官以公共政策、不得恶意报复解雇等理由加以修正；④民法典作出规定不等于国家强制干预，关键看规范是任意性还是强行性。结论：该说法错误。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第19页「雇佣关系与国家干预」把两条路径并列：任意性调整（1804年民法典劳动力租赁、美国 at-will）与强行法即劳动公法（1922年苏俄劳动法典）。错在第一步：看到「民法典有规定」就推断「国家强制干预」，混淆了任意性规范与强行性规范；把私法法典化当成公法干预，方向正好相反。</div>
+    <div class="pit">看到「民法典规定」就以为是国家强制干预，混淆任意性调整与强行法干预。</div>
+  </div>
+</div>
+<div class="q" id="q16">
+  <div class="qh"><span class="no">16.</span><span class="badge">辨析题</span><span class="pts">4 分</span></div>
+  <div class="qt">辨析：「从劳动法到社会法的发展顺序是：劳动者保护法→劳动者契约法→劳动者保险法。」</div>
+  
+  <button class="ansbtn" onclick="toggleAns(16)">看答案</button>
+  <div class="ansbox" id="a16">
+    <div><span class="lbl">答案</span>错误。理由：①PPT 给出的顺序是劳动者契约法→劳动者保护法→劳动者保险法（被雇者保险法→社会保险法）；②先有契约法，劳动关系作为合同关系由民法调整，靠双方约定；③契约自由无法纠正实质上的实力不平衡，才出现以劳动基准为核心的保护法；④保护法仍不能分散工伤、失业、养老等社会风险，才发展出保险法，并与工业社会的标准劳动关系相对应。结论：该说法错误，前两个阶段被颠倒。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第20页「3.从劳动法到社会法」。课堂实录老师用「工人自负→雇主承担→工伤保险社会化」的责任三段转移讲的是同一条线：先合同自治，再国家保护，最后风险社会化。错在按「先保护、后契约」的直觉排序，颠倒历史顺序；这一错还会连带把工伤保险说成劳动法最早的形态，而它其实是社会保险法的起点。</div>
+    <div class="pit">按「先保护、后契约」的直觉排序，颠倒历史顺序。</div>
+  </div>
+</div>
+<div class="q" id="q17">
+  <div class="qh"><span class="no">17.</span><span class="badge">辨析题</span><span class="pts">4 分</span></div>
+  <div class="qt">辨析：「劳动法上的劳动就是一切创造价值的劳动，因此志愿服务、监狱劳动改造也属于劳动法上的劳动。」</div>
+  
+  <button class="ansbtn" onclick="toggleAns(17)">看答案</button>
+  <div class="ansbox" id="a17">
+    <div><span class="lbl">答案</span>错误。理由：①劳动法上的劳动有四个特点：职业劳动即有偿劳动、基于契约关系的受雇劳动、从属性劳动、自由劳动；②志愿服务是无偿的、非契约义务的劳动，监狱劳动改造不具有自由属性，二者都过不了这四道筛子；③一般意义的劳动（使用劳动力、创造使用价值的有意识有目的的活动）只是基础含义，不能直接套用；④把一切创造价值的劳动都纳入，会抹掉有偿、从属、自由这几个决定性的特征。结论：该说法错误。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第21—23页；课堂实录老师原话「如果是无偿的劳动、义务的劳动，就不属于劳动法调整的对象」「什么情况下的劳动是不自由状态的劳动？监狱的劳动改造……不受劳动法的调整，原因就是它没有自由属性」。错在第一步：用一般劳动定义替换劳动法上的劳动定义，属概念混淆；随后又漏掉「自由」这一特点，属条件遗漏。老师提醒判断一个劳动进不进门，先过这四道筛子再谈从属性。</div>
+    <div class="pit">把「创造价值的劳动」等同于劳动法上的劳动，忽略有偿、契约、自由三项。</div>
+  </div>
+</div>
+<div class="q" id="q18">
+  <div class="qh"><span class="no">18.</span><span class="badge">辨析题</span><span class="pts">4 分</span></div>
+  <div class="qt">辨析：「劳动法的调整对象就是劳动关系本身，不包括与劳动关系密切联系的其他社会关系。」</div>
+  
+  <button class="ansbtn" onclick="toggleAns(18)">看答案</button>
+  <div class="ansbox" id="a18">
+    <div><span class="lbl">答案</span>错误。理由：①我国通说把劳动法界定为调整劳动关系以及与劳动关系密切联系的其他社会关系的法律规范的总称，两类关系缺一不可；②第一类是劳动关系，包括个别劳动关系、集体劳动关系，还包括社会劳动关系；③第二类是与劳动关系密切联系的其他社会关系，包括劳动争议调解和仲裁、社会保险及其管理、劳动法律法规执行监督、工会组织与企事业单位及国家机关的关系、劳动行政管理；④只写劳动关系，还会漏掉招聘这类前提性关系与退休这类结果性关系。结论：该说法错误。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第7、29页；课堂实录老师两次原话「劳动法是调整劳动关系以及与劳动关系密切联系的其他社会关系的法律规范的总称」，并强调导论开头用五个案例从五个侧面切「劳动法调整什么」，最后一节课仍回到这句话，「答题时两类要写全，不能只写劳动关系」。错在第一步就把通说定义砍掉一半，属条件遗漏；把「其他社会关系」当成可有可无的附注，而不是调整对象的第二类。</div>
+    <div class="pit">背定义时只背「调整劳动关系」，漏掉「与劳动关系密切联系的其他社会关系」。</div>
+  </div>
+</div>
+<div class="q" id="q19">
+  <div class="qh"><span class="no">19.</span><span class="badge">名词解释</span><span class="pts">3 分</span></div>
+  <div class="qt">名词解释：劳动法</div>
+  
+  <button class="ansbtn" onclick="toggleAns(19)">看答案</button>
+  <div class="ansbox" id="a19">
+    <div><span class="lbl">答案</span>劳动法是调整劳动关系以及与劳动关系密切联系的其他社会关系的法律规范的总称。要点：①调整对象为两类关系，劳动关系含个别、集体与社会劳动关系；②有广义狭义之分，狭义指劳动法典，广义还包括配套法律、法规和规章。它是独立法律部门，归入社会法。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第7、10页；课堂实录老师原话「劳动法是调整劳动关系以及与劳动关系密切联系的其他社会关系的法律规范的总称」，并强调两类关系要写全。易错点：只写「调整劳动关系」，漏掉其他社会关系；或把广义狭义写成《劳动法》与《劳动合同法》两部法律的对应。</div>
+    <div class="pit">定义只说「调整劳动关系」，不写「与劳动关系密切联系的其他社会关系」。</div>
+  </div>
+</div>
+<div class="q" id="q20">
+  <div class="qh"><span class="no">20.</span><span class="badge">名词解释</span><span class="pts">3 分</span></div>
+  <div class="qt">名词解释：社会保障法</div>
+  
+  <button class="ansbtn" onclick="toggleAns(20)">看答案</button>
+  <div class="ansbox" id="a20">
+    <div><span class="lbl">答案</span>社会保障法是调整社会保障关系的法律规范的总称。要点：①社会保障关系包括社会保险、社会救济、社会福利、社会优抚四类；②本课程重点讲社会保险，含养老、医疗、工伤、失业、生育。社会保障法与劳动法同属社会法，工伤保险是最早出现的险种。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第7页、第20页；课堂实录老师讲工伤责任三段转移时指出社会保险法最早从工伤保险长出来，并说「在众多的社会保险当中，真正和劳动有关联的只有两个险种」，即工伤保险与失业保险。易错点：把劳动法调整的其他社会关系（争议调解仲裁、劳动监察等）当成社会保障关系；或把四类关系写成三类。</div>
+    <div class="pit">把社会保障关系四类与劳动法调整的其他社会关系五类混为一谈。</div>
+  </div>
+</div>
+<div class="q" id="q21">
+  <div class="qh"><span class="no">21.</span><span class="badge">名词解释</span><span class="pts">3 分</span></div>
+  <div class="qt">名词解释：人格从属性</div>
+  
+  <button class="ansbtn" onclick="toggleAns(21)">看答案</button>
+  <div class="ansbox" id="a21">
+    <div><span class="lbl">答案</span>人格从属性指劳动者基于劳动契约，在一定期间内对自己的劳动行为不能自主支配，须接受用人单位的支配性管理。要点：①劳动的内容、时间、地点、方式与程序由单位决定；②须亲自履行；③服从规章与指示、接受检查与制裁。它是认定劳动关系时最先审查的从属性。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第26页；课堂实录老师用保洁员把5000元工资中的2000元留下、用3000元另雇他人的例子讲「须亲自履行」，并说「劳动关系的核心特征就是劳动管理，劳动管理的核心是从属性劳动，它表现为支配性」。易错点：漏掉「亲自履行」这一项；或把人格从属性写成「有人格」这种同义反复；或与经济从属性、组织从属性的表现串位。</div>
+    <div class="pit">只记住「听指挥」，漏掉「亲自履行」与「接受检查、制裁」两项表现。</div>
+  </div>
+</div>
+<div class="q" id="q22">
+  <div class="qh"><span class="no">22.</span><span class="badge">名词解释</span><span class="pts">3 分</span></div>
+  <div class="qt">名词解释：工厂立法</div>
+  
+  <button class="ansbtn" onclick="toggleAns(22)">看答案</button>
+  <div class="ansbox" id="a22">
+    <div><span class="lbl">答案</span>工厂立法指19世纪以英国1802年《学徒健康与道德法》为开端、通过规定工时上限与工资下限保护劳动者的国家立法。要点：①与劳工法规方向相反，后者规定最低工时与最高工资；②该法只保护学徒，9岁以下不得雇用、不得夜班。它是劳动法产生的标志。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第17—18页；课堂实录老师原话「劳动法最初就叫工厂法」「1802年英国这部法律的通过视为是劳动法产生的标志」。易错点：把工厂立法与劳工法规的干预方向搞反（工厂立法是工时上限、工资下限）；或把1802年这部法对应到劳动法产生的第四阶段，其实它属于第三阶段工厂立法。</div>
+    <div class="pit">把工厂立法与劳工法规的方向搞反，或把1802年直接对应「劳动法」阶段。</div>
+  </div>
+</div>
+<div class="q" id="q23">
+  <div class="qh"><span class="no">23.</span><span class="badge">名词解释</span><span class="pts">3 分</span></div>
+  <div class="qt">名词解释：不完全劳动关系</div>
+  
+  <button class="ansbtn" onclick="toggleAns(23)">看答案</button>
+  <div class="ansbox" id="a23">
+    <div><span class="lbl">答案</span>不完全劳动关系即不完全符合确立劳动关系情形、但企业进行劳动管理的用工关系，由2021年八部门指导意见提出。要点：①双方订立书面协议，该协议不是劳动合同；②部分劳动标准有条件适用，如最低工资标准。它是三分法中的中间类型，不等同于劳动关系。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第34页；课堂实录老师原话「出现了一个不完全符合确立劳动关系情形，但企业对劳动者进行劳动管理的……把劳动由传统的二分法变为了当代的劳动三分法」，并强调「不是按照劳动关系来认定的，它只是某一些内容按照劳动法来执行」。易错点：把不完全劳动关系当成「准劳动关系」或直接按劳动关系处理；或漏掉书面协议不是劳动合同、只适用部分劳动标准这两个限定。</div>
+    <div class="pit">把不完全劳动关系当作准劳动关系，认为其全部适用劳动法。</div>
+  </div>
+</div>
+<div class="q" id="q24">
+  <div class="qh"><span class="no">24.</span><span class="badge">名词解释</span><span class="pts">3 分</span></div>
+  <div class="qt">名词解释：社会法</div>
+  
+  <button class="ansbtn" onclick="toggleAns(24)">看答案</button>
+  <div class="ansbox" id="a24">
+    <div><span class="lbl">答案</span>社会法指在公法与私法交融过程中出现、介于二者之间的领域，劳动法与社会保险法是典型代表。要点：①19世纪出现私法公法化与公法私法化，交融处生出社会法；②劳动法脱胎于市民法又超越市民法，兼有平等协商与国家干预。我国八大法律部门中社会法为其一。</div>
+    <div class="explain"><span class="lbl">解析</span>依据：PPT 第13—15页；课堂实录老师原话「我们通常把劳动法和社会保险法，我们现在合称为叫社会法」「它脱胎于市民法，从市民法脱开以后，它又超越了市民法，形成了独立的劳动法」，并给出劳动法三个特征：起源于工厂法、脱胎并超越市民法、以保护劳动者为使命。易错点：把社会法解释为「社会的法」或与公法、行政法等同；在公法私法二分里选边。</div>
+    <div class="pit">把社会法当作公法或私法的一个分支，忽略它是第三领域。</div>
+  </div>
+</div>
+<div class="q" id="q25">
+  <div class="qh"><span class="no">25.</span><span class="badge">案例分析题</span><span class="pts">10 分</span></div>
+  <div class="qt">甲物流公司经营两块业务：一是自营货运物流，二是承揽乙快递公司在重庆市北碚区城南、城北、老城部分区域的快递揽收、分拣、派件工作。周某自2019年7月2日起负责北碚区城南片区的派件与揽件，当天向甲交纳5000元保证金，自备三轮摩托车，在公司充电须自付电费，穿标有乙快递字样的服饰对外揽件派件；包裹损毁时由周某先出面处理，处理不了由乙快递客服处理，赔偿先由乙快递对外赔付，再由乙向甲扣款、甲对周某扣款；报酬按派送包裹数量确定；揽收费用由周某向客户收取，甲按每公斤1.1元收取运费，周某按标准向甲购买快递单，可向客户收1.5元，4毛差价归其所有；周某称不按要求揽件会被罚款，甲解释系乙快递推行应用程序要求接单；周某每天上午8时、下午2时到乙快递北碚分拨中心打卡领取快件，凭工号扫描、凭单量计酬；当天未派送完的包裹由甲派人帮忙派送，但不计入周某的派送数量。一审重庆市北碚区人民法院认为周某并非在甲的指挥领导下完成工作、甲只关心劳动成果、没有证据证明甲对其遵守规章制度进行监督或作出违纪处理、周某以自备工具独立完成取件送件揽件、不受甲指示派遣、车辆充电与维修自负，故不构成劳动关系；二审重庆市第一中级人民法院改判双方构成劳动关系。请分析周某与甲物流公司之间是否构成劳动关系，并按从属性三性逐项说明一审与二审为何结论相反、应以哪一判决为准。</div>
+  
+  <button class="ansbtn" onclick="toggleAns(25)">看答案</button>
+  <div class="ansbox" id="a25">
+    <div><span class="lbl">答案</span>①人格从属性：作业时间（固定上午8时、下午2时打卡领件）、投递范围（划定城南片区）、投递质效（罚款、扣款、购买快递单）均由甲设置控制节点，甲对自寄件领取到投递的全过程拥有控制权，构成隐性控制；周某在碎片时间的规划上可自主揽件，但整体时间受限于甲，人格从属性并未消失。②经济从属性：周某主要依靠甲代理的揽投业务作为生活主要收入来源，没有其他收入；自备工具、自行确定价格并不排斥其经济依附性；5000元保证金与层层扣款形成经济制约。③组织从属性：周某穿标有乙快递字样的服饰对外揽派，其劳动构成甲承揽业务的组成部分，被纳入甲的经营组织。④结论：三性具备，应认定周某与甲物流公司存在劳动关系。一审只看到工具自备、结果导向与「无监督证据」，二审抓住作业时间、投递范围、投递质效上的控制节点与隐性控制；我国实行二审终审制，应以二审判决为准。</div>
+    <div class="explain"><span class="lbl">解析</span>评分标准：人格从属性并对应打卡、片区、罚款扣款等事实3分；经济从属性并对应收入来源、保证金、自备工具不排斥依附3分；组织从属性并对应服饰、业务组成2分；点出一审与二审分歧在有无控制并说明二审终审2分。老师课堂分析链：一审判决原文即「并非在指挥领导下完成工作」「只关心劳动成果」「没有证据证明监督或违纪处理」；二审用作业时间、投递范围、投递质效的「控制节点」推出「隐性控制」；老师追问「两个法院都用劳动三性，为什么得出截然相反的结论」，落点是平台时代三性不再同时具备、出现强弱之分，审查要从人格到经济再到组织。易错点：只答「有管理就是从属」不落到控制节点；或忽略二审终审而写成「两审都有道理」。</div>
+    <div class="pit">把一审「自备工具、只关心结果」当作否定劳动关系的决定性理由，漏掉控制节点分析。</div>
+  </div>
+</div>
+<div class="q" id="q26">
+  <div class="qh"><span class="no">26.</span><span class="badge">案例分析题</span><span class="pts">10 分</span></div>
+  <div class="qt">王某是网络主播，在网络平台创建并运营自媒体主播账号。2020年3月，王某与北京某文化传播有限公司签订独家经纪合同，约定王某授权该公司为其提供自媒体平台图文、音频、视频有关的经纪服务和商业运作；王某主要收入为按月交易金额获取的收益，保底费用和提成费用根据月交易额确定，公司扣除必要费用后双方按比例分成，王某有权对收入分配提出异议；合同明确约定本合同是服务合同、不是劳动合同，也不因签订本合同而订立劳动关系。合同履行中，王某按公司安排准时抵达工作场所、按约定完成工作，账号自签约后由公司管理，粉丝量由100万涨至400万，王某还在公司推荐下参加广告制作发布、综艺演出，账号月收入不固定，取决于双方合作经营平台的广告收入。后双方发生争议，王某申请仲裁请求确认与该公司存在劳动关系。请分析王某与该公司之间是否构成劳动关系；若不构成，说明其可能落入哪一类用工关系、适用何种规则。请从有无独立经营权与从属性强弱两个角度展开。</div>
+  
+  <button class="ansbtn" onclick="toggleAns(26)">看答案</button>
+  <div class="ansbox" id="a26">
+    <div><span class="lbl">答案</span>①判断框架：此类用工不在完全劳动关系与纯民事关系两端，先看主播有无自己的独立经营权；有独立经营权即为典型民事活动，没有则可能落入不完全劳动关系。②从属性：账号由公司管理、收益由公司扣除必要费用后分成、活动由公司推荐安排，组织与经济上联系紧密；但王某的收入取决于平台广告收入、并不固定，公司对其劳动过程未形成支配性管理，人格从属性弱。③定性：从三性看未具备劳动关系的主要特征，不构成劳动关系；因仍存在一定劳动管理与收益依附，可按不完全劳动关系处理，由双方订立书面协议确定权利义务并部分适用劳动标准，该协议不是劳动合同。④合同约定「不是劳动合同、不订立劳动关系」本身不能单独决定性质，仍以事实为准。⑤程序上劳动争议先仲裁后诉讼，本案已经仲裁前置。</div>
+    <div class="explain"><span class="lbl">解析</span>评分标准：指出不在两极、先看有无独立经营权2分；分别展开人格从属性弱、经济与组织联系强3分；得出不构成劳动关系的结论3分；说明不完全劳动关系的处理规则并指出其不是准劳动关系2分。老师课堂分析链：先确定框架「如果是有他自己的经营权的话，那就是典型的民事活动」；没有独立经营权才可能落入不完全劳动关系，并强调不完全劳动关系「不是按照劳动关系来认定的，它只是某一些内容按照劳动法来执行」；具体到本案核心仍是看三性有没有、强不强，账号由公司打理、收入分成、活动由公司推荐安排，但从三性角度没有构成主要特征，故不构成劳动关系。本案系最高人民法院指导性案例，具有参考意义。易错点：见到「经纪合同」「分成」就认定劳动关系；或把不完全劳动关系当成准劳动关系。</div>
+    <div class="pit">把「账号由公司管理、收入分成」直接等同于支配性劳动管理，忽略独立经营权与人格从属性强弱。</div>
+  </div>
+</div>
+<div class="q" id="q27">
+  <div class="qh"><span class="no">27.</span><span class="badge">案例分析题</span><span class="pts">10 分</span></div>
+  <div class="qt">玉某与闪送科技公司签订合作协议，协议明确：双方是商业合作关系，任何一方均没有与另一方建立劳动关系的意愿，如有应发出书面申请，由双方平等协商确定。公司的主要业务是闪送的运营；玉某通过抢单获得配送机会，报酬按单结算。2021年玉某在送件过程中发生交通事故。老师课上补充：当时全国从事这类工作的人约8400万，美团、滴滴、淘宝等平台多采用这一模式。请分析此类合作协议能否排除劳动关系，玉某与闪送科技公司之间应如何定性；若认定不成立劳动关系，事故损害按何种路径处理；并说明这一处理结果与劳动法的产生史有何关联。请按主体、合意与形式、三性、事实优先的顺序作答。</div>
+  
+  <button class="ansbtn" onclick="toggleAns(27)">看答案</button>
+  <div class="ansbox" id="a27">
+    <div><span class="lbl">答案</span>①主体：闪送科技公司具备用人单位主体资格，玉某具备劳动者主体资格，主体要件不构成障碍。②合意与形式：双方只有合作协议、没有劳动合同，须按 2005 年《关于确立劳动关系有关事项的通知》第一条三要件认定事实劳动关系。③三性：玉某可自主决定是否接单、接单时间与工作量，平台不要求上线时间、无底薪与考勤、按单结算，人格从属性弱；收入随接单量波动且不排他，经济从属性弱；配送虽属平台主营业务，但平台不对其实施组织化管理，组织从属性弱。④事实优先：协议的「合作关系」表述与「无建立劳动关系意愿」的声明不能决定性质，以事实上是否存在支配性劳动管理为准。⑤结论：在本案事实下不构成劳动关系（与（2022）沪02民终9926号民事判决的裁判口径一致），事故损害按民事侵权路径处理，并可依 2021 年八部门指导意见走职业伤害保障；若平台另行实施强制派单、考勤、处罚、固定底薪等支配性管理，则认定劳动关系。⑥历史关联：若一概按合作关系处理、事故由劳动者自担，等于回到工业革命初期工人自负风险的状态，这正是劳动法从民法中独立、并以工伤保险社会化取代个人责任的原因。</div>
+    <div class="explain"><span class="lbl">解析</span>评分标准：主体与形式2分；三性逐项对应抢单自由、按单计价、无考勤底薪、业务组成4分；事实优先与协议不能排除2分；结论（不构成劳动关系）与救济路径（民事侵权或职业伤害保障）2分；与工业革命初期、工伤保险社会化的关联1分。裁判口径：闪送类平台用工中，劳动者可自主决定接单、接单时间与工作量、按单计酬，平台不要求上线时间且无底薪、无考勤管理的，司法实践认定从属性不足、不构成劳动关系（（2022）沪02民终9926号）；平台实施强制派单、考勤、处罚、固定底薪等支配性劳动管理的，应认定劳动关系，依据《劳动合同法》第7条、劳社部发〔2005〕12号第一条与最高人民法院第42批指导性案例（237—240号）「支配性劳动管理」标准。易错点：以协议名称直接否定劳动关系；或只答「民法调整、责任自负」而不回到判断标准。</div>
+    <div class="pit">以协议名称否定劳动关系，或脱离支配性劳动管理空谈「合作关系」</div>
+  </div>
+</div>
+<footer>答案与解析来自复习资料（含现行法核对）；先自己做，再点「看答案」。</footer>
+<script>
+function toggleAns(n){var b=document.getElementById('a'+n);if(!b)return;b.classList.toggle('show');
+var btn=document.querySelector('#q'+n+' .ansbtn');if(btn){btn.textContent=b.classList.contains('show')?'收起答案':'看答案';}}
+function allAns(show){document.querySelectorAll('.ansbox').forEach(function(b,i){if(show){b.classList.add('show');}else{b.classList.remove('show');}});
+document.querySelectorAll('.ansbtn').forEach(function(b){b.textContent=show?'收起答案':'看答案';});}
+</script>
+</body></html>
