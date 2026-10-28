@@ -10,8 +10,9 @@
 
 | 要什么 | 在哪 |
 |---|---|
-| **精简背诵版 PDF（21 页，考前用）** | 仓库根目录 `compact-review.pdf`（点开即可下载） |
+| **精简背诵版 PDF（25 页，考前用）** | 仓库根目录 `compact-review.pdf`（点开即可下载） |
 | 精简背诵版网页 | 根目录 `compact-review.html`，或 `精简版/` 文件夹 |
+| **精简版 × 原始 PPT 对照（网页）** | `精简版/精简版-PPT对照.html`（左边资料、右边课件原页，6 章共 343 页，可滑动/按页跳转） |
 | 完整版网页（6 章） | `EPA/index.html`（各章页） |
 | 完整版 PDF（6 本） | `打印版/` 文件夹 |
 | 在线直接看（手机/平板） | https://elysia2326.github.io/labor-law-review/ |
@@ -22,6 +23,8 @@
 compact-review.pdf   精简背诵版 PDF（放在根目录，一眼能看到）
 compact-review.html  精简背诵版网页
 精简版/              精简版原文件（劳动法复习-精简版.html / .pdf）
+  精简版-PPT对照.html  左资料、右课件对照页（配合 pptx/ 里的课件原页图片）
+  pptx/ch1~ch6/       课程课件原页图片（共 343 页，对照页按页加载）
 EPA/                 完整版网页（每章一个 HTML，自包含，图片已内嵌）
   index.html         总目录，点进去选章节
   导论.html
@@ -49,7 +52,7 @@ quiz/                轻量版章节测试（每题一个「看答案」按钮�
 
 ## 怎么用
 
-**考前背诵**：打开根目录的 `compact-review.pdf`（或网页 `compact-review.html`），全本 21 页：每章只有四块——知识点一句话结论、老师课堂案例（结论版）、名词解释、必背数字，没有重复讲解。
+**考前背诵**：打开根目录的 `compact-review.pdf`（或网页 `compact-review.html`），全本 25 页：每章只有四块——知识点一句话结论、老师课堂案例（结论版）、名词解释、必背数字，没有重复讲解。
 
 **手机 / 平板直接看**：打开 https://elysia2326.github.io/labor-law-review/ 选「精简背诵版」；想离线就下载 PDF。
 
