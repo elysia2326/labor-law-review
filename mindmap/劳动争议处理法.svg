@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1190" height="1172" viewBox="0 0 1190 1172" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif">
+<rect x="0" y="0" width="1190" height="1172" fill="#fbfaf6"/>
+<text x="595.0" y="22" text-anchor="middle" font-size="17" font-weight="700" fill="#2d2a24">劳动争议处理法 · 思维导图</text>
+<rect x="24" y="549.0" width="190" height="64" rx="14" fill="#2d2a24"/>
+<text x="119.0" y="577.0" text-anchor="middle" font-size="15" fill="#fff" font-weight="700">劳动争议处理法</text>
+<text x="119.0" y="596.0" text-anchor="middle" font-size="10" fill="#d9d4c8">7 个板块 · 18 个知识点</text>
+<path d="M214,581.0 C232.0,581.0 232.0,104.0 250,104.0" fill="none" stroke="#4F7CAC" stroke-width="2.4" opacity="0.85"/>
+<rect x="250" y="81.0" width="250" height="46" rx="10" fill="#4F7CAC" opacity="0.14" stroke="#4F7CAC" stroke-width="1.6"/>
+<text x="264" y="108.0" font-size="13" font-weight="700" fill="#2d2a24">劳动争议处理概述</text>
+<path d="M500,104.0 C540,104.0 510,58.0 550,58.0" fill="none" stroke="#4F7CAC" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="40.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d33" stroke-width="2.2"/>
+<rect x="550" y="40.0" width="5" height="36" rx="2.5" fill="#4F7CAC"/>
+<text x="566" y="62.0" font-size="12.5" fill="#2d2a24">劳动争议的概念</text>
+<text x="1104" y="55.0" font-size="10" fill="#d33" font-weight="700">必考</text>
+<path d="M500,104.0 C540,104.0 510,104.0 550,104.0" fill="none" stroke="#4F7CAC" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="86.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d9a441" stroke-width="1.3"/>
+<rect x="550" y="86.0" width="5" height="36" rx="2.5" fill="#4F7CAC"/>
+<text x="566" y="108.0" font-size="12.5" fill="#2d2a24">劳动争议的类型：权利争议与利益争议、个人争议与集体争议</text>
+<text x="1104" y="101.0" font-size="10" fill="#d9a441" font-weight="700">重点</text>
+<path d="M500,104.0 C540,104.0 510,150.0 550,150.0" fill="none" stroke="#4F7CAC" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="132.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#9ca3af" stroke-width="1.3"/>
+<rect x="550" y="132.0" width="5" height="36" rx="2.5" fill="#4F7CAC"/>
+<text x="566" y="154.0" font-size="12.5" fill="#2d2a24">劳动争议处理的法律依据：《劳动争议调解仲裁法》与司法解释</text>
+<text x="1104" y="147.0" font-size="10" fill="#9ca3af" font-weight="700">了解</text>
+<path d="M214,581.0 C232.0,581.0 232.0,263.0 250,263.0" fill="none" stroke="#E07A5F" stroke-width="2.4" opacity="0.85"/>
+<rect x="250" y="240.0" width="250" height="46" rx="10" fill="#E07A5F" opacity="0.14" stroke="#E07A5F" stroke-width="1.6"/>
+<text x="264" y="267.0" font-size="13" font-weight="700" fill="#2d2a24">劳动争议的处理方式与受案范围</text>
+<path d="M500,263.0 C540,263.0 510,240.0 550,240.0" fill="none" stroke="#E07A5F" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="222.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d33" stroke-width="2.2"/>
+<rect x="550" y="222.0" width="5" height="36" rx="2.5" fill="#E07A5F"/>
+<text x="566" y="244.0" font-size="12.5" fill="#2d2a24">劳动争议处理的四种方式及衔接：仲裁前置</text>
+<text x="1104" y="237.0" font-size="10" fill="#d33" font-weight="700">必考</text>
+<path d="M500,263.0 C540,263.0 510,286.0 550,286.0" fill="none" stroke="#E07A5F" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="268.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d33" stroke-width="2.2"/>
+<rect x="550" y="268.0" width="5" height="36" rx="2.5" fill="#E07A5F"/>
+<text x="566" y="290.0" font-size="12.5" fill="#2d2a24">受案范围：六类劳动争议与六类排除事项</text>
+<text x="1104" y="283.0" font-size="10" fill="#d33" font-weight="700">必考</text>
+<path d="M214,581.0 C232.0,581.0 232.0,399.0 250,399.0" fill="none" stroke="#5B8C5A" stroke-width="2.4" opacity="0.85"/>
+<rect x="250" y="376.0" width="250" height="46" rx="10" fill="#5B8C5A" opacity="0.14" stroke="#5B8C5A" stroke-width="1.6"/>
+<text x="264" y="403.0" font-size="13" font-weight="700" fill="#2d2a24">劳动争议基层调解</text>
+<path d="M500,399.0 C540,399.0 510,376.0 550,376.0" fill="none" stroke="#5B8C5A" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="358.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d9a441" stroke-width="1.3"/>
+<rect x="550" y="358.0" width="5" height="36" rx="2.5" fill="#5B8C5A"/>
+<text x="566" y="380.0" font-size="12.5" fill="#2d2a24">基层调解组织：企业劳动争议调解委员会等三类</text>
+<text x="1104" y="373.0" font-size="10" fill="#d9a441" font-weight="700">重点</text>
+<path d="M500,399.0 C540,399.0 510,422.0 550,422.0" fill="none" stroke="#5B8C5A" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="404.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d33" stroke-width="2.2"/>
+<rect x="550" y="404.0" width="5" height="36" rx="2.5" fill="#5B8C5A"/>
+<text x="566" y="426.0" font-size="12.5" fill="#2d2a24">调解程序与调解协议效力</text>
+<text x="1104" y="419.0" font-size="10" fill="#d33" font-weight="700">必考</text>
+<path d="M214,581.0 C232.0,581.0 232.0,558.0 250,558.0" fill="none" stroke="#9B6BB3" stroke-width="2.4" opacity="0.85"/>
+<rect x="250" y="535.0" width="250" height="46" rx="10" fill="#9B6BB3" opacity="0.14" stroke="#9B6BB3" stroke-width="1.6"/>
+<text x="264" y="555.0" font-size="13" font-weight="700" fill="#2d2a24">劳动争议仲裁的组织、参加人与管</text>
+<text x="264" y="570.0" font-size="13" font-weight="700" fill="#2d2a24">辖</text>
+<path d="M500,558.0 C540,558.0 510,512.0 550,512.0" fill="none" stroke="#9B6BB3" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="494.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d9a441" stroke-width="1.3"/>
+<rect x="550" y="494.0" width="5" height="36" rx="2.5" fill="#9B6BB3"/>
+<text x="566" y="516.0" font-size="12.5" fill="#2d2a24">劳动争议仲裁的性质与仲裁委员会设立</text>
+<text x="1104" y="509.0" font-size="10" fill="#d9a441" font-weight="700">重点</text>
+<path d="M500,558.0 C540,558.0 510,558.0 550,558.0" fill="none" stroke="#9B6BB3" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="540.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d9a441" stroke-width="1.3"/>
+<rect x="550" y="540.0" width="5" height="36" rx="2.5" fill="#9B6BB3"/>
+<text x="566" y="562.0" font-size="12.5" fill="#2d2a24">仲裁庭组成与仲裁参加人</text>
+<text x="1104" y="555.0" font-size="10" fill="#d9a441" font-weight="700">重点</text>
+<path d="M500,558.0 C540,558.0 510,604.0 550,604.0" fill="none" stroke="#9B6BB3" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="586.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d33" stroke-width="2.2"/>
+<rect x="550" y="586.0" width="5" height="36" rx="2.5" fill="#9B6BB3"/>
+<text x="566" y="608.0" font-size="12.5" fill="#2d2a24">劳动争议仲裁管辖：履行地优先</text>
+<text x="1104" y="601.0" font-size="10" fill="#d33" font-weight="700">必考</text>
+<path d="M214,581.0 C232.0,581.0 232.0,717.0 250,717.0" fill="none" stroke="#D9A441" stroke-width="2.4" opacity="0.85"/>
+<rect x="250" y="694.0" width="250" height="46" rx="10" fill="#D9A441" opacity="0.14" stroke="#D9A441" stroke-width="1.6"/>
+<text x="264" y="721.0" font-size="13" font-weight="700" fill="#2d2a24">仲裁时效</text>
+<path d="M500,717.0 C540,717.0 510,694.0 550,694.0" fill="none" stroke="#D9A441" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="676.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d33" stroke-width="2.2"/>
+<rect x="550" y="676.0" width="5" height="36" rx="2.5" fill="#D9A441"/>
+<text x="566" y="698.0" font-size="12.5" fill="#2d2a24">仲裁时效：一年期间、起算与超时效后果</text>
+<text x="1104" y="691.0" font-size="10" fill="#d33" font-weight="700">必考</text>
+<path d="M500,717.0 C540,717.0 510,740.0 550,740.0" fill="none" stroke="#D9A441" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="722.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d9a441" stroke-width="1.3"/>
+<rect x="550" y="722.0" width="5" height="36" rx="2.5" fill="#D9A441"/>
+<text x="566" y="744.0" font-size="12.5" fill="#2d2a24">仲裁时效的特殊规则：拖欠劳动报酬、中断与中止</text>
+<text x="1104" y="737.0" font-size="10" fill="#d9a441" font-weight="700">重点</text>
+<path d="M214,581.0 C232.0,581.0 232.0,899.0 250,899.0" fill="none" stroke="#3E8E8E" stroke-width="2.4" opacity="0.85"/>
+<rect x="250" y="876.0" width="250" height="46" rx="10" fill="#3E8E8E" opacity="0.14" stroke="#3E8E8E" stroke-width="1.6"/>
+<text x="264" y="903.0" font-size="13" font-weight="700" fill="#2d2a24">仲裁程序、裁决效力与执行</text>
+<path d="M500,899.0 C540,899.0 510,830.0 550,830.0" fill="none" stroke="#3E8E8E" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="812.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d33" stroke-width="2.2"/>
+<rect x="550" y="812.0" width="5" height="36" rx="2.5" fill="#3E8E8E"/>
+<text x="566" y="834.0" font-size="12.5" fill="#2d2a24">仲裁程序：申请至裁决、45+15日结案与送达</text>
+<text x="1104" y="827.0" font-size="10" fill="#d33" font-weight="700">必考</text>
+<path d="M500,899.0 C540,899.0 510,876.0 550,876.0" fill="none" stroke="#3E8E8E" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="858.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d33" stroke-width="2.2"/>
+<rect x="550" y="858.0" width="5" height="36" rx="2.5" fill="#3E8E8E"/>
+<text x="566" y="880.0" font-size="12.5" fill="#2d2a24">一裁终局：适用范围、生效条件与救济</text>
+<text x="1104" y="873.0" font-size="10" fill="#d33" font-weight="700">必考</text>
+<path d="M500,899.0 C540,899.0 510,922.0 550,922.0" fill="none" stroke="#3E8E8E" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="904.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d9a441" stroke-width="1.3"/>
+<rect x="550" y="904.0" width="5" height="36" rx="2.5" fill="#3E8E8E"/>
+<text x="566" y="926.0" font-size="12.5" fill="#2d2a24">非终局裁决的效力与15日起诉期限</text>
+<text x="1104" y="919.0" font-size="10" fill="#d9a441" font-weight="700">重点</text>
+<path d="M500,899.0 C540,899.0 510,968.0 550,968.0" fill="none" stroke="#3E8E8E" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="950.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d9a441" stroke-width="1.3"/>
+<rect x="550" y="950.0" width="5" height="36" rx="2.5" fill="#3E8E8E"/>
+<text x="566" y="972.0" font-size="12.5" fill="#2d2a24">仲裁裁决的执行：强制执行与先予执行</text>
+<text x="1104" y="965.0" font-size="10" fill="#d9a441" font-weight="700">重点</text>
+<path d="M214,581.0 C232.0,581.0 232.0,1081.0 250,1081.0" fill="none" stroke="#B05A7A" stroke-width="2.4" opacity="0.85"/>
+<rect x="250" y="1058.0" width="250" height="46" rx="10" fill="#B05A7A" opacity="0.14" stroke="#B05A7A" stroke-width="1.6"/>
+<text x="264" y="1085.0" font-size="13" font-weight="700" fill="#2d2a24">劳动争议诉讼</text>
+<path d="M500,1081.0 C540,1081.0 510,1058.0 550,1058.0" fill="none" stroke="#B05A7A" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="1040.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d33" stroke-width="2.2"/>
+<rect x="550" y="1040.0" width="5" height="36" rx="2.5" fill="#B05A7A"/>
+<text x="566" y="1062.0" font-size="12.5" fill="#2d2a24">劳动争议诉讼：起诉条件、管辖与审级</text>
+<text x="1104" y="1055.0" font-size="10" fill="#d33" font-weight="700">必考</text>
+<path d="M500,1081.0 C540,1081.0 510,1104.0 550,1104.0" fill="none" stroke="#B05A7A" stroke-width="1.5" opacity="0.65"/>
+<rect x="550" y="1086.0" width="600" height="36" rx="8" fill="#ffffff" stroke="#d33" stroke-width="2.2"/>
+<rect x="550" y="1086.0" width="5" height="36" rx="2.5" fill="#B05A7A"/>
+<text x="566" y="1108.0" font-size="12.5" fill="#2d2a24">举证责任：用人单位决定事项与加班费</text>
+<text x="1104" y="1101.0" font-size="10" fill="#d33" font-weight="700">必考</text>
+</svg>
